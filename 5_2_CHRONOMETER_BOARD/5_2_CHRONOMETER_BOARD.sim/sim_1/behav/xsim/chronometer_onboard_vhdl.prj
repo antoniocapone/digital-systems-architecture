@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/anodes_manager.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_input_manager.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_manager.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/chronometer.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/clock_divider.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/input_manager.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/seven_segments_display.vhd" \
+"../../../../5_2_CHRONOMETER_BOARD.srcs/sources_1/new/chronometer_onboard.vhd" \
+
+# Do not sort compile order
+nosort

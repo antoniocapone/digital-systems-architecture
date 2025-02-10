@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../4_1_SHIFTREGISTER.srcs/sources_1/new/flipflop_D.vhd" \
+"../../../../4_1_SHIFTREGISTER.srcs/sources_1/imports/new/mux4_1.vhd" \
+"../../../../4_1_SHIFTREGISTER.srcs/sources_1/new/mux_2_1.vhd" \
+"../../../../4_1_SHIFTREGISTER.srcs/sources_1/new/shiftregister_behavioral.vhd" \
+"../../../../4_1_SHIFTREGISTER.srcs/sources_1/new/shiftregister_structural.vhd" \
+"../../../../4_1_SHIFTREGISTER.srcs/sim_1/new/shiftregister_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/new/control_unit.vhd" \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/imports/sources_1/new/dmux1_4.vhd" \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/imports/sources_1/new/interconnection16_4.vhd" \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/imports/sources_1/imports/new/mux16_1.vhd" \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/imports/sources_1/imports/new/mux4_1.vhd" \
+"../../../../1_3_INTERCONNECTION_16_4_BOARD.srcs/sources_1/new/interconnection16_4_onboard.vhd" \
+
+# Do not sort compile order
+nosort

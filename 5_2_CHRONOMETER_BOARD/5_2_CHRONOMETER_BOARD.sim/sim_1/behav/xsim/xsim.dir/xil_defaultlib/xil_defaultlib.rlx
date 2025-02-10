@@ -1,0 +1,13 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/chronometer.vhd,1739129032,vhdl,,,,chronometer,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/clock_divider.vhd,1739124350,vhdl,,,,clock_divider,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/counter.vhd,1738862347,vhdl,,,,counter,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/anodes_manager.vhd,1739129494,vhdl,,,,anodes_manager,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_input_manager.vhd,1739127404,vhdl,,,,cathodes_input_manager,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_manager.vhd,1739127367,vhdl,,,,cathodes_manager,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/chronometer_onboard.vhd,1739129578,vhdl,,,,chronometer_onboard,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/input_manager.vhd,1739127508,vhdl,,,,input_manager,,,,,,,,
+C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/seven_segments_display.vhd,1739127037,vhdl,,,,seven_segments_display,,,,,,,,

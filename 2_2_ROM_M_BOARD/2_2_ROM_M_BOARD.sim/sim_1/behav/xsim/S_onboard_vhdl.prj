@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../2_2_ROM_M_BOARD.srcs/sources_1/imports/new/M.vhd" \
+"../../../../2_2_ROM_M_BOARD.srcs/sources_1/imports/new/ROM.vhd" \
+"../../../../2_2_ROM_M_BOARD.srcs/sources_1/imports/new/S.vhd" \
+"../../../../2_2_ROM_M_BOARD.srcs/sources_1/new/S_onboard.vhd" \
+
+# Do not sort compile order
+nosort

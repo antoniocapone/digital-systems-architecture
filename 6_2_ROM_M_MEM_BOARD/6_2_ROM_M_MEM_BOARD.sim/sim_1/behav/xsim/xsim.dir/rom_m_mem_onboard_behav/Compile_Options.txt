@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "rom_m_mem_onboard_behav" "xil_defaultlib.rom_m_mem_onboard" -log "elaborate.log" 

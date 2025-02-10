@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd" \
+"../../../../3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Input_Manager.vhd" \
+"../../../../3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/imports/new/Sequence_Detector.vhd" \
+"../../../../3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd" \
+"../../../../3_2_SEQUENCE_DETECTOR_BOARD.srcs/sim_1/new/sdob_tb.vhd" \
+
+# Do not sort compile order
+nosort

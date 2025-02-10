@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/M.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/MEM_N.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/ROM_N.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/new/clock_divider.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/control_unit.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/imports/new/counter.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd" \
+"../../../../6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd" \
+
+# Do not sort compile order
+nosort

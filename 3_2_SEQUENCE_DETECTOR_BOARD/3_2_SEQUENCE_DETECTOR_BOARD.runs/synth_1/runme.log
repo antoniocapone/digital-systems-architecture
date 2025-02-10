@@ -1,0 +1,276 @@
+
+*** Running vivado
+    with args -log Sequence_Detector_onboard.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sequence_Detector_onboard.tcl
+
+
+ECHO disattivato.
+ECHO disattivato.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Sequence_Detector_onboard.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 479.949 ; gain = 214.871
+Command: read_checkpoint -auto_incremental -incremental C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/utils_1/imports/synth_1/Sequence_Detector_onboard.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/utils_1/imports/synth_1/Sequence_Detector_onboard.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Sequence_Detector_onboard -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18128
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1310.980 ; gain = 411.660
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sequence_Detector_onboard' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:25]
+INFO: [Synth 8-3491] module 'Sequence_Detector' declared at 'C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/imports/new/Sequence_Detector.vhd:5' bound to instance 'seq_detector' of component 'Sequence_Detector' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'Sequence_Detector' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/imports/new/Sequence_Detector.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Sequence_Detector' (0#1) [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/imports/new/Sequence_Detector.vhd:17]
+INFO: [Synth 8-3491] module 'Input_Manager' declared at 'C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Input_Manager.vhd:5' bound to instance 'input_mgr' of component 'Input_Manager' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'Input_Manager' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Input_Manager.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Input_Manager' (0#1) [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Input_Manager.vhd:17]
+INFO: [Synth 8-3491] module 'Button_Debouncer' declared at 'C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd:6' bound to instance 'btn_debouncer_left' of component 'Button_Debouncer' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'Button_Debouncer' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd:19]
+	Parameter clock_period bound to: 10 - type: integer 
+	Parameter noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Button_Debouncer' (0#1) [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd:19]
+INFO: [Synth 8-3491] module 'Button_Debouncer' declared at 'C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Button_Debouncer.vhd:6' bound to instance 'btn_debouncer_right' of component 'Button_Debouncer' [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:99]
+INFO: [Synth 8-256] done synthesizing module 'Sequence_Detector_onboard' (0#1) [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/sources_1/new/Sequence_Detector_onboard.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1400.137 ; gain = 500.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1400.137 ; gain = 500.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1400.137 ; gain = 500.816
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1400.137 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/constrs_1/imports/BoardFiles/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/constrs_1/imports/BoardFiles/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.srcs/constrs_1/imports/BoardFiles/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Sequence_Detector_onboard_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Sequence_Detector_onboard_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1493.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1493.266 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Sequence_Detector'
+INFO: [Synth 8-802] inferred FSM for state register 'button_state_reg' in module 'Button_Debouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                          0000001 |                              000
+                      s2 |                          0000010 |                              010
+                      s1 |                          0000100 |                              001
+                      s3 |                          0001000 |                              011
+                      s4 |                          0010000 |                              100
+                      s5 |                          0100000 |                              101
+                      s6 |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'Sequence_Detector'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             not_pressed |                               00 |                               00
+             chk_pressed |                               01 |                               01
+                 pressed |                               10 |                               10
+         chk_not_pressed |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'button_state_reg' using encoding 'sequential' in module 'Button_Debouncer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 6     
+	   7 Input    7 Bit        Muxes := 2     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 12    
+	   7 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT2   |     7|
+|4     |LUT3   |     7|
+|5     |LUT4   |    11|
+|6     |LUT5   |     4|
+|7     |LUT6   |    13|
+|8     |FDRE   |    87|
+|9     |FDSE   |     2|
+|10    |IBUF   |     6|
+|11    |OBUF   |     8|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1493.266 ; gain = 500.816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1493.266 ; gain = 593.945
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1493.266 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1493.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 8bc9af9
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1493.266 ; gain = 989.414
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/3_2_SEQUENCE_DETECTOR_BOARD/3_2_SEQUENCE_DETECTOR_BOARD.runs/synth_1/Sequence_Detector_onboard.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Sequence_Detector_onboard_utilization_synth.rpt -pb Sequence_Detector_onboard_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  7 03:59:54 2025...

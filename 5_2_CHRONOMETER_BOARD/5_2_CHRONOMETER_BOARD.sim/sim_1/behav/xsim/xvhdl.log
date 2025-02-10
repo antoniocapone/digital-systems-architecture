@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/anodes_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'anodes_manager'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_input_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cathodes_input_manager'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/cathodes_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cathodes_manager'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/chronometer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chronometer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/clock_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/imports/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/input_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input_manager'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/seven_segments_display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'seven_segments_display'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/sources_1/new/chronometer_onboard.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chronometer_onboard'

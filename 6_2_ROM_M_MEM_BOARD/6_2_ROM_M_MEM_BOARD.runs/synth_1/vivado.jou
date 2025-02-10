@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Feb  8 11:18:24 2025
+# Process ID: 14104
+# Current directory: C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1
+# Command line: vivado.exe -log rom_m_mem_onboard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_m_mem_onboard.tcl
+# Log file: C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1/rom_m_mem_onboard.vds
+# Journal file: C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1\vivado.jou
+# Running On: TABLET-OCD01L8V, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8415 MB
+#-----------------------------------------------------------
+source rom_m_mem_onboard.tcl -notrace
