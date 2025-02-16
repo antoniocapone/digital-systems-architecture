@@ -11,7 +11,7 @@ entity cathodes_manager is
 	);
 end cathodes_manager;
 
-architecture behavioral of cathodes_manager is
+architecture dataflow of cathodes_manager is
 
 	constant zero   : std_logic_vector(6 downto 0) := "1000000";
 	constant one    : std_logic_vector(6 downto 0) := "1111001";
@@ -41,4 +41,4 @@ begin
 					(others => '0')	when others;
 
 	cathodes_dot <= (not dot) & cathodes;
-end behavioral;
+end dataflow;

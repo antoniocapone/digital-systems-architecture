@@ -12,7 +12,7 @@ entity cathodes_input_manager is
 	);
 end cathodes_input_manager;
 
-architecture behavioral of cathodes_input_manager is
+architecture dataflow of cathodes_input_manager is
 
 	signal seconds : integer range 0 to 59;
 	signal minutes : integer range 0 to 59;
@@ -34,4 +34,4 @@ begin
 		dot_out <=	'1' when "100",
 					'1' when "010",
 					'0' when others;
-end behavioral;
+end dataflow;

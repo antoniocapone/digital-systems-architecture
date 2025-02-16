@@ -1,0 +1,32 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot booth_multiplier_onboard_tb_behav xil_defaultlib.booth_multiplier_onboard_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.button_debouncer [\button_debouncer(clock_period=1...]
+Compiling architecture behavioral of entity xil_defaultlib.input_manager [input_manager_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_8 [register_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.shiftregister [shiftregister_default]
+Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder_8 [ripple_carry_adder_8_default]
+Compiling architecture structural of entity xil_defaultlib.adder_subtractor [adder_subtractor_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(max_count=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture structural of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.anodes_manager [anodes_manager_default]
+Compiling architecture behavioral of entity xil_defaultlib.cathodes_manager [cathodes_manager_default]
+Compiling architecture structural of entity xil_defaultlib.seven_segments_display [seven_segments_display_default]
+Compiling architecture structural of entity xil_defaultlib.booth_multiplier_onboard [booth_multiplier_onboard_default]
+Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier_onboard_tb
+Built simulation snapshot booth_multiplier_onboard_tb_behav

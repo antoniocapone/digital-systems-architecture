@@ -19,9 +19,9 @@ end ROM_N;
 architecture behavioral of ROM_N is
 
 	type rom_N_8 is array (0 to N - 1) of std_logic_vector (0 to 7);
-	signal rom : rom_N_8 := (	x"B8", x"BD", x"17", x"E0",
-								x"3A", x"03", x"FF", x"47",
-								others => (x"00"));
+	signal rom : rom_N_8 := (x"B8", x"BD", x"17", x"E0",
+							 x"3A", x"03", x"FF", x"47",
+							 others => (x"00"));
 	attribute rom_style : string;
 	attribute rom_style of rom : signal is "block";
 	

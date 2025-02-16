@@ -1,6 +1,11 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+-- Funzionamento del progetto:
+-- Il pulsante centrale fornisce il segnale di START alla macchina, che effettua la
+-- scansione delle locazioni della ROM. L'uscita di M è fornita attraverso i quattro LED
+-- di sinistra. Per consentire la visione delle uscite, il clock dell'unità di controllo
+-- è rallentato ad una frequenza di 1 Hz. Il pulsante in alto è di reset.
 
 entity rom_m_mem_onboard is
 	port(

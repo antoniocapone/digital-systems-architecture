@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sat Feb  8 11:18:24 2025
-# Process ID: 14104
+# Start of session at: Mon Feb 10 18:02:43 2025
+# Process ID: 3984
 # Current directory: C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1
 # Command line: vivado.exe -log rom_m_mem_onboard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom_m_mem_onboard.tcl
 # Log file: C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1/rom_m_mem_onboard.vds
@@ -12,7 +12,7 @@
 # Running On: TABLET-OCD01L8V, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 8415 MB
 #-----------------------------------------------------------
 source rom_m_mem_onboard.tcl -notrace
-create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 480.730 ; gain = 218.855
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 479.746 ; gain = 216.680
 Command: read_checkpoint -auto_incremental -incremental C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/utils_1/imports/synth_1/rom_m_mem_onboard.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/utils_1/imports/synth_1/rom_m_mem_onboard.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -25,18 +25,18 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16748
+INFO: [Synth 8-7075] Helper process launched with PID 20224
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1310.184 ; gain = 411.555
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1308.438 ; gain = 411.320
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'rom_m_mem_onboard' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'rom_m_mem_onboard' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:19]
 	Parameter clock_frequency_out bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/new/clock_divider.vhd:5' bound to instance 'clk_divider' of component 'clock_divider' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:43]
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/new/clock_divider.vhd:5' bound to instance 'clk_divider' of component 'clock_divider' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:48]
 INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/new/clock_divider.vhd:17]
 	Parameter clock_frequency_in bound to: 100000000 - type: integer 
 	Parameter clock_frequency_out bound to: 1 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/new/clock_divider.vhd:17]
-INFO: [Synth 8-3491] module 'rom_m_mem' declared at 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd:6' bound to instance 'rom_m_mem_inst' of component 'rom_m_mem' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:53]
+INFO: [Synth 8-3491] module 'rom_m_mem' declared at 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd:6' bound to instance 'rom_m_mem_inst' of component 'rom_m_mem' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:58]
 INFO: [Synth 8-638] synthesizing module 'rom_m_mem' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd:18]
 	Parameter N bound to: 8 - type: integer 
 INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/control_unit.vhd:5' bound to instance 'ctrl_unit' of component 'control_unit' [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd:89]
@@ -61,7 +61,7 @@ INFO: [Synth 8-638] synthesizing module 'counter' [C:/Xilinx/Projects/6_2_ROM_M_
 	Parameter max_count bound to: 8 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'counter' (0#1) [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/imports/new/counter.vhd:22]
 INFO: [Synth 8-256] done synthesizing module 'rom_m_mem' (0#1) [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/imports/sources_1/new/rom_m_mem.vhd:18]
-INFO: [Synth 8-256] done synthesizing module 'rom_m_mem_onboard' (0#1) [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'rom_m_mem_onboard' (0#1) [C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.srcs/sources_1/new/rom_m_mem_onboard.vhd:19]
 WARNING: [Synth 8-7129] Port clock in module MEM_N is either unconnected or has no load
 WARNING: [Synth 8-7129] Port write in module MEM_N is either unconnected or has no load
 WARNING: [Synth 8-7129] Port address[2] in module MEM_N is either unconnected or has no load
@@ -72,18 +72,18 @@ WARNING: [Synth 8-7129] Port input[1] in module MEM_N is either unconnected or h
 WARNING: [Synth 8-7129] Port input[2] in module MEM_N is either unconnected or has no load
 WARNING: [Synth 8-7129] Port input[3] in module MEM_N is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1400.488 ; gain = 501.859
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1399.414 ; gain = 502.297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1400.488 ; gain = 501.859
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1399.414 ; gain = 502.297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1400.488 ; gain = 501.859
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1399.414 ; gain = 502.297
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1400.488 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1399.414 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -94,28 +94,28 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/rom_m_mem_onboard_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.008 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1486.445 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1429.008 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'control_unit'
 ---------------------------------------------------------------------------------------------------
@@ -128,7 +128,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in modul
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'control_unit'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -168,26 +168,26 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-7052] The timing for the instance rom_m_mem_inst/rom/output_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -205,37 +205,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -266,18 +266,18 @@ Report Cell Usage:
 |13    |OBUF     |     4|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1486.445 ; gain = 501.859
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 1486.445 ; gain = 587.816
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 1429.008 ; gain = 502.297
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1429.008 ; gain = 531.891
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1486.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1439.102 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.445 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1445.730 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -285,7 +285,7 @@ Synth Design complete | Checksum: 566e6376
 INFO: [Common 17-83] Releasing license: Synthesis
 47 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 1486.445 ; gain = 981.832
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1445.730 ; gain = 942.090
 INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/Projects/6_2_ROM_M_MEM_BOARD/6_2_ROM_M_MEM_BOARD.runs/synth_1/rom_m_mem_onboard.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file rom_m_mem_onboard_utilization_synth.rpt -pb rom_m_mem_onboard_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Feb  8 11:19:26 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 10 18:03:35 2025...

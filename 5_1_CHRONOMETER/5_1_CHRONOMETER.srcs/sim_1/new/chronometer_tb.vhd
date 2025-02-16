@@ -50,12 +50,12 @@ begin
 	);
 	
 	CLK_process :process
-   begin
+	begin
 		clock <= '0';
 		wait for CLK_period/2;
 		clock <= '1';
 		wait for CLK_period/2;
-   end process;
+	end process;
 	
 	stim_process : process
 	begin

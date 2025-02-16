@@ -34,7 +34,7 @@ architecture behavioral of counter_tb is
 	signal Q : std_logic := '0';
 begin
 	uut : counter
-    generic map(
+	generic map(
 		max_count => max_count
 	)
 	port map(
@@ -46,28 +46,28 @@ begin
 		output => output,
 		Q => Q
 	);
-    
-    CLK_process :process
-   begin
+	
+	CLK_process :process
+	begin
 		clock <= '0';
 		wait for CLK_period/2;
 		clock <= '1';
 		wait for CLK_period/2;
-   end process;
-    
-    stim_process : process
-    begin
-    	wait for 100 ns;
-    	enable <= '1';
-    	wait for 100 ns;
-    	input <= "0011";
-    	load <= '1';
-    	wait for 10 ns;
-    	load <= '0';
-    	wait for 30 ns;
-    	wait for 100 ns;
-    	reset <= '1';
-    	wait for 40 ns;
-    	wait;
-    end process;
+	end process;
+	
+	stim_process : process
+	begin
+		wait for 100 ns;
+		enable <= '1';
+		wait for 100 ns;
+		input <= "0011";
+		load <= '1';
+		wait for 10 ns;
+		load <= '0';
+		wait for 30 ns;
+		wait for 100 ns;
+		reset <= '1';
+		wait for 40 ns;
+		wait;
+	end process;
 end behavioral;
