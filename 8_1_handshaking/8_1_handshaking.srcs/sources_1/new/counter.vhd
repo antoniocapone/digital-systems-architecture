@@ -9,8 +9,6 @@ entity counter is
 		clock : in std_logic;
 		enable : in std_logic;
 		reset : in std_logic;
-		load : in std_logic;
-		input : in std_logic_vector(0 to 3);
 		output : out std_logic_vector(0 to 3);
 		Q : out std_logic
 	);
@@ -25,12 +23,6 @@ begin
 			if reset = '1' then
 				count := 0;
 				output <= (others => '0');
-				Q <= '0';
-			elsif load = '1' then
-				count := to_integer(unsigned(input));
-				if count >= 8 then
-					count := 0;
-				end if;
 				Q <= '0';
 			elsif enable = '1' then
 				if count >= 7 then
