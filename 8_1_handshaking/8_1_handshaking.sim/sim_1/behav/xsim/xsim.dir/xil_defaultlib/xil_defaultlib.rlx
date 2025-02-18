@@ -2,12 +2,14 @@
 2020.2
 May  7 2023
 15:24:31
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sim_1/new/testbench.vhd,1739805698,vhdl,,,,testbench,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/MEM.vhd,1739805839,vhdl,,,,mem,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/ROM.vhd,1739801180,vhdl,,,,rom,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/adder.vhd,1739804372,vhdl,,,,adder,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/control_unit_A.vhd,1739801180,vhdl,,,,control_unita,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/control_unit_B.vhd,1739801180,vhdl,,,,control_unitb,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/counter.vhd,1739802119,vhdl,,,,counter,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/handshaking.vhd,1739804788,vhdl,,,,handshaking,,,,,,,,
-C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/register_8.vhd,1739801180,vhdl,,,,register_8,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sim_1/new/testbench.vhd,1739893734,vhdl,,,,testbench,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/MEM.vhd,1739893896,vhdl,,,,mem,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/ROM.vhd,1739893854,vhdl,,,,rom,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/adder.vhd,1739806679,vhdl,,,,adder,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/control_unit_A.vhd,1739891541,vhdl,,,,control_unita,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/control_unit_B.vhd,1739891688,vhdl,,,,control_unitb,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/counter.vhd,1739892620,vhdl,,,,counter,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/handshaking.vhd,1739809035,vhdl,,,,handshaking,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/register_8.vhd,1739806679,vhdl,,,,register_8,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/system_A.vhd,1739894086,vhdl,,,,system_a,,,,,,,,
+C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/system_B.vhd,1739893970,vhdl,,,,system_b,,,,,,,,

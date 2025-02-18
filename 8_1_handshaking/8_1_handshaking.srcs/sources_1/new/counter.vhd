@@ -9,7 +9,7 @@ entity counter is
 		clock : in std_logic;
 		enable : in std_logic;
 		reset : in std_logic;
-		output : out std_logic_vector(0 to 3);
+		output : out std_logic_vector(0 to 2);
 		Q : out std_logic
 	);
 end counter;
@@ -33,7 +33,7 @@ begin
 					Q <= '0';
 				end if;
 			end if;
-			output <= std_logic_vector(to_unsigned(count, 4));
+			output <= std_logic_vector(to_unsigned(count, 3));
 		end if;
 	end process;
 end behavioral;

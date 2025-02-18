@@ -1,14 +1,13 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
-use IEEE.MATH_REAL.ALL;
 
 
 entity ROM is
 	port(
 		clock: in std_logic;
 		read : in std_logic;
-		address : in std_logic_vector(3 downto 0);
+		address : in std_logic_vector(2 downto 0);
 		output : out std_logic_vector(0 to 7)
 	);
 end ROM;

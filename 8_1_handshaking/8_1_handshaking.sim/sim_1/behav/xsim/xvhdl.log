@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/MEM.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'MEM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/system_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_A'

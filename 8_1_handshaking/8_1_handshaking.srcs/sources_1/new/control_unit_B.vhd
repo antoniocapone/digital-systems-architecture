@@ -35,12 +35,10 @@ begin
 					when IDLE =>
 						counter_enable <= '0';
 						counter_reset <= '1';
-						write <= '0';
 						if start = '1' then
 							current_state <= WAIT_TX;
 						end if;
 					when WAIT_TX =>
-						counter_enable <= '0';
 						counter_reset <= '0';
 						write <= '0';
 						if req = '1' then
@@ -48,10 +46,12 @@ begin
 						end if;
 					when ACK_TX =>
 						ack <= '1';
+						counter_enable <= '1';
 						load_rx <= '1';
 						current_state <= WAIT_END_REQ;
 					when WAIT_END_REQ =>
 						load_rx <= '0';
+						counter_enable <= '0';
 						if req = '0' then
 							current_state <= END_TX;
 						end if;
@@ -66,7 +66,6 @@ begin
 					when COUNT =>
 						write <= '1';
 						load_sum <= '0';
-						counter_enable <= '1';	-- aggiorna il contatore per il prossimo ciclo
 						if counter_Q = '1' then
 							current_state <= IDLE;
 						else

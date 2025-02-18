@@ -9,7 +9,7 @@ entity MEM is
 		clock: in std_logic;
 		write : in std_logic;
 		read : in std_logic;
-		address : in std_logic_vector(3 downto 0);
+		address : in std_logic_vector(2 downto 0);
 		input : in std_logic_vector(0 to 7);
 		output : out std_logic_vector(0 to 7)
 	);

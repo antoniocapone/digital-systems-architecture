@@ -13,13 +13,14 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.control_unitA [control_unita_default]
 Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
 Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
-Compiling architecture behavioral of entity xil_defaultlib.control_unitA [control_unita_default]
+Compiling architecture structural of entity xil_defaultlib.system_A [system_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unitB [control_unitb_default]
 Compiling architecture behavioral of entity xil_defaultlib.register_8 [register_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.MEM [mem_default]
-Compiling architecture behavioral of entity xil_defaultlib.control_unitB [control_unitb_default]
 Compiling architecture behavioral of entity xil_defaultlib.adder [adder_default]
-Compiling architecture structural of entity xil_defaultlib.handshaking [handshaking_default]
+Compiling architecture structural of entity xil_defaultlib.system_B [system_b_default]
 Compiling architecture behavioral of entity xil_defaultlib.testbench
 Built simulation snapshot testbench_behav

@@ -16,7 +16,7 @@ entity control_unitA is
 end control_unitA;
 
 architecture behavioral of control_unitA is
-	type state is (IDLE, START_TX, WAIT_ACK, END_TX, COUNT);
+	type state is (IDLE, START_TX, WAIT_ACK, END_TX, COUNT);--, CHECK, CHECK1);
 	signal current_state : state := IDLE;
 
 	attribute fsm_encoding : string;
@@ -30,29 +30,28 @@ begin
 			else
 				case current_state is
 					when IDLE =>
-						counter_enable <= '0';
 						counter_reset <= '1';
 						if start = '1' then
 							current_state <= START_TX;
 						end if;
 					when START_TX =>
-						counter_enable <= '0';
 						counter_reset <= '0';
+						counter_enable <= '1';
 						req <= '1';
 						read <= '1';
 						current_state <= WAIT_ACK;
 					when WAIT_ACK =>
+						read <= '0';
+						counter_enable <= '0';
 						if ack = '1' then
 							current_state <= END_TX;
 						end if;
 					when END_TX =>
-						read <= '0';
 						req <= '0';
 						if ack = '0' then
 							current_state <= COUNT;
 						end if;
 					when COUNT =>
-						counter_enable <= '1';	-- aggiorna il contatore per il prossimo ciclo
 						if counter_Q = '1' then
 							current_state <= IDLE;
 						else
