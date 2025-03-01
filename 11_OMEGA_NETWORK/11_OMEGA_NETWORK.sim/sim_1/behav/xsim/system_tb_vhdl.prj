@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/dmux_1_2_2bit.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/mux_2_1_2bit.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/omega_network_4.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/priority_manager.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/switch_2_2_2bit.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sources_1/new/system.vhd" \
+"../../../../11_OMEGA_NETWORK.srcs/sim_1/new/system_tb.vhd" \
+
+# Do not sort compile order
+nosort
