@@ -1,7 +1,7 @@
 Vivado Simulator v2023.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testbench_behav xil_defaultlib.testbench -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot handshaking_tb_behav xil_defaultlib.handshaking_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,16 +11,16 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
 Compiling package ieee.math_real
-Compiling architecture behavioral of entity xil_defaultlib.control_unitA [control_unita_default]
-Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
-Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.control_unit_A [control_unit_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM_N_M [rom_n_m_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(max_count=8)\]
 Compiling architecture structural of entity xil_defaultlib.system_A [system_a_default]
-Compiling architecture behavioral of entity xil_defaultlib.control_unitB [control_unitb_default]
-Compiling architecture behavioral of entity xil_defaultlib.register_8 [register_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.MEM [mem_default]
-Compiling architecture behavioral of entity xil_defaultlib.adder [adder_default]
-Compiling architecture structural of entity xil_defaultlib.system_B [system_b_default]
-Compiling architecture behavioral of entity xil_defaultlib.testbench
-Built simulation snapshot testbench_behav
+Compiling architecture behavioral of entity xil_defaultlib.control_unit_B [control_unit_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.MEM_N_M [mem_n_m_default]
+Compiling architecture dataflow of entity xil_defaultlib.adder [adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_M [register_m_default]
+Compiling architecture behavioral of entity xil_defaultlib.system_B [system_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.handshaking_tb
+Built simulation snapshot handshaking_tb_behav

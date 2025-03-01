@@ -9,7 +9,7 @@ entity MEM_N is
 		N : in integer := 8
 	);
 	port(
-		clock: in std_logic;
+		clock : in std_logic;
 		write : in std_logic;
 		address : in std_logic_vector(integer(ceil(log2(real(N)))) - 1 downto 0);
 		input : in std_logic_vector(0 to 3)

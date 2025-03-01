@@ -9,7 +9,7 @@ entity ROM_N is
 		N : in integer := 8
 	);
 	port(
-		clock: in std_logic;
+		clock : in std_logic;
 		read : in std_logic;
 		address : in std_logic_vector(integer(ceil(log2(real(N)))) - 1 downto 0);
 		output : out std_logic_vector(0 to 7)

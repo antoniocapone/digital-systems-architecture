@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../10_UART-RS232.srcs/sources_1/new/MEM_8_8.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/ROM_8_8.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/RS232RefComp.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/control_unit_A.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/control_unit_B.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/system_A.vhd" \
+"../../../../10_UART-RS232.srcs/sources_1/new/system_B.vhd" \
+"../../../../10_UART-RS232.srcs/sim_1/new/serial_tb.vhd" \
+
+# Do not sort compile order
+nosort
