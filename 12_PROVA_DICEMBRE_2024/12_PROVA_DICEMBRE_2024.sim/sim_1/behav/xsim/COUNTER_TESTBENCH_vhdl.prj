@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/COUNTER_MOD_8.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sim_1/new/COUNTER_TESTBENCH.vhd" \
+
+# Do not sort compile order
+nosort
