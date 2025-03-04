@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Feb 17 15:06:36 2025
+# Process ID: 23416
+# Current directory: C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17708 C:\Users\anton\Desktop\Elaborato_ASDI\digital_systems_architecture\8_1_handshaking\8_1_handshaking.xpr
+# Log file: C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/vivado.log
+# Journal file: C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking\vivado.jou
+# Running On: ThinkpadAntonio, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 8, Host memory: 25427 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.xpr
+update_compile_order -fileset sources_1
+set_property top handshaking [current_fileset]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/adder.vhd w ]
+add_files C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sources_1/new/adder.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sim_1/new/testbench.vhd w ]
+add_files -fileset sim_1 C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/8_1_handshaking/8_1_handshaking.srcs/sim_1/new/testbench.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+add_files -fileset constrs_1 -norecurse C:/Users/anton/Desktop/Elaborato_ASDI/digital_systems_architecture/5_2_CHRONOMETER_BOARD/5_2_CHRONOMETER_BOARD.srcs/constrs_1/imports/BoardFiles/Nexys-A7-100T-Master.xdc
+launch_simulation
+launch_simulation
+launch_simulation
+source testbench.tcl
+close_sim
