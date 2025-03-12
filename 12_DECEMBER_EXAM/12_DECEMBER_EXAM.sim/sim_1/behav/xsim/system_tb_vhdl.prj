@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/ROM_8_4.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/carry_look_ahead_adder_4.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/control_unit_A.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/control_unit_B.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/imports/Projects/6_1_ROM_M_MEM/6_1_ROM_M_MEM.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/imports/Projects/8_1_HANDSHAKING/8_1_HANDSHAKING.srcs/sources_1/new/register_M.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/system_A.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sources_1/new/system_B.vhd" \
+"../../../../12_DECEMBER_EXAM.srcs/sim_1/new/system_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,8 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/2_1_ROM_M/2_1_ROM_M.srcs/sources_1/new/M.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'M'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/2_1_ROM_M/2_1_ROM_M.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ROM'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/2_1_ROM_M/2_1_ROM_M.srcs/sources_1/new/S.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'S'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/2_1_ROM_M/2_1_ROM_M.srcs/sim_1/new/S_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'S_tb'

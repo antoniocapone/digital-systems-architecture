@@ -1,1 +1,5 @@
 Time resolution is 1 ps
+WARNING: HDL object /Sequence_Detector_tb/CLK_period is of a type not supported for VCD or has zero size.
+WARNING: HDL object /Sequence_Detector_tb/bit_number is of a type not supported for VCD or has zero size.
+WARNING: HDL object /Sequence_Detector_tb/CLK_period is of a type not supported for VCD or has zero size.
+WARNING: HDL object /Sequence_Detector_tb/bit_number is of a type not supported for VCD or has zero size.

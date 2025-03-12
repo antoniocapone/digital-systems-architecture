@@ -1,1 +1,3 @@
 Time resolution is 1 ps
+WARNING: HDL object /chronometer_tb/CLK_period is of a type not supported for VCD or has zero size.
+WARNING: HDL object /chronometer_tb/max_count is of a type not supported for VCD or has zero size.

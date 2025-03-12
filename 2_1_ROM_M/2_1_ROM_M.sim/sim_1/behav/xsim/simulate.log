@@ -1,1 +1,3 @@
 Time resolution is 1 ps
+WARNING: HDL object /S_tb/data is of a type not supported for VCD or has zero size.
+WARNING: HDL object /S_tb/data is of a type not supported for VCD or has zero size.

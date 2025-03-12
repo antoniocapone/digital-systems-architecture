@@ -1,7 +1,7 @@
-Running: xsim.dir/interconnection16_4_tb_behav/xsimk.exe -simmode gui -wdb interconnection16_4_tb_behav.wdb -simrunnum 0 -socket 58246
+Running: xsim.dir/interconnection16_4_tb_behav/xsimk.exe -simmode gui -wdb interconnection16_4_tb_behav.wdb -simrunnum 0 -socket 52726
 Design successfully loaded
-Design Loading Memory Usage: 11928 KB (Peak: 11928 KB)
-Design Loading CPU Usage: 61 ms
+Design Loading Memory Usage: 11772 KB (Peak: 11772 KB)
+Design Loading CPU Usage: 46 ms
 Simulation completed
-Simulation Memory Usage: 12372 KB (Peak: 12372 KB)
-Simulation CPU Usage: 61 ms
+Simulation Memory Usage: 12188 KB (Peak: 12188 KB)
+Simulation CPU Usage: 93 ms

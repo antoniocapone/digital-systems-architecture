@@ -1,0 +1,50 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.MATH_REAL.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity counter is
+	generic(
+		max_count : integer := 10
+	);
+	port(
+		clock : in std_logic;
+		enable : in std_logic;
+		reset : in std_logic;
+		load : in std_logic;
+		input : in std_logic_vector(0 to integer(ceil(log2(real(max_count)))) - 1);
+		output : out std_logic_vector(0 to integer(ceil(log2(real(max_count)))) - 1);
+		Q : out std_logic
+	);
+end counter;
+
+architecture behavioral of counter is
+begin
+	process(clock)
+	variable count : integer range 0 to max_count - 1 := 0;
+	begin
+		if clock'event and clock = '1' then
+			if reset = '1' then
+				count := 0;
+				output <= (others => '0');
+				Q <= '0';
+			elsif load = '1' then
+				count := to_integer(unsigned(input));
+				if count >= max_count then
+					count := 0;
+				end if;
+				Q <= '0';
+			elsif enable = '1' then
+				if count >= max_count -1 then
+					count := 0;
+					Q <= '1';
+				else
+					count := count + 1;
+					Q <= '0';
+				end if;
+			end if;
+			output <= std_logic_vector(to_unsigned(count, integer(ceil(log2(real(max_count))))));
+		end if;
+	end process;
+end behavioral;
