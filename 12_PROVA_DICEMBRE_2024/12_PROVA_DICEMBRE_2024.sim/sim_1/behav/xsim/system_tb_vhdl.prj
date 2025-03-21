@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/CARRY_LOOK_AHEAD_4.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/COUNTER_MOD_8.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/PROVA_DICEMBRE.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/SHIFT_REGISTER_4.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/SYNCH_ROM.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/unit_A.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sources_1/new/unit_B.vhd" \
+"../../../../12_PROVA_DICEMBRE_2024.srcs/sim_1/new/system_tb.vhd" \
+
+# Do not sort compile order
+nosort

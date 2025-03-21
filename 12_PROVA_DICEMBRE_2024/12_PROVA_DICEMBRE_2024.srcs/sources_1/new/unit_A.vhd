@@ -19,7 +19,7 @@ architecture behavioral of unit_A is
 
     signal read_rom: std_logic;
     signal addr_rom: std_logic_vector(2 downto 0);
-    signal data_rom: std_logic_vector(2 downto 0);
+    signal data_rom: std_logic_vector(3 downto 0);
     
     signal en_counter: std_logic;
     signal rst_counter: std_logic;

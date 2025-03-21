@@ -1,7 +1,7 @@
 Vivado Simulator v2023.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot COUNTER_TESTBENCH_behav xil_defaultlib.COUNTER_TESTBENCH -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,6 +12,14 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture dataflow of entity xil_defaultlib.SYNCH_ROM [synch_rom_default]
 Compiling architecture dataflow of entity xil_defaultlib.COUNTER_MOD_8 [counter_mod_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.counter_testbench
-Built simulation snapshot COUNTER_TESTBENCH_behav
+Compiling architecture behavioral of entity xil_defaultlib.unit_A [unit_a_default]
+Compiling architecture behavioral of entity xil_defaultlib.REGISTER_4 [register_4_default]
+Compiling architecture structural of entity xil_defaultlib.CARRY_LOOK_AHEAD_4 [carry_look_ahead_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.unit_B [unit_b_default]
+Compiling architecture structural of entity xil_defaultlib.PROVA_DICEMBRE [prova_dicembre_default]
+Compiling architecture behavioral of entity xil_defaultlib.system_tb
+Built simulation snapshot system_tb_behav

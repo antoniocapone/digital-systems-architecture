@@ -5,7 +5,6 @@ entity unit_B is
     port (
         clk: in std_logic := '0';
         rst: in std_logic := '0';
-        start: in std_logic := '0';
         req: in std_logic := '0';
         ack: out std_logic := '0';
         data: in std_logic_vector(0 to 3)
