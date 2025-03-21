@@ -7,7 +7,8 @@ entity unit_A is
         rst: in std_logic := '0';
         start: in std_logic := '0';
         req: out std_logic := '0';
-        ack: in std_logic := '0'
+        ack: in std_logic := '0';
+        data: out std_logic_vector(0 to 3)
     );
 end unit_A;
 
