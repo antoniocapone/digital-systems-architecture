@@ -1,2 +1,16 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/Magistrale/ArchitetturaSistemiDigitali/ElaboratoGruppoRepo/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/unit_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/CARRY_LOOK_AHEAD_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CARRY_LOOK_AHEAD_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/COUNTER_MOD_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'COUNTER_MOD_8'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/PROVA_DICEMBRE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PROVA_DICEMBRE'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/SHIFT_REGISTER_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REGISTER_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/SYNCH_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SYNCH_ROM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/unit_A.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'unit_A'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sources_1/new/unit_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'unit_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anton/Desktop/ASDi/digital_systems_architecture/12_PROVA_DICEMBRE_2024/12_PROVA_DICEMBRE_2024.srcs/sim_1/new/system_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_tb'
