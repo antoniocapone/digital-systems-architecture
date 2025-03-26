@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Sat Feb 15 21:38:15 2025
+| Date             : Sun Mar 23 16:27:50 2025
 | Host             : TABLET-OCD01L8V running 64-bit major release  (build 9200)
 | Command          : report_power -file booth_multiplier_onboard_power_routed.rpt -pb booth_multiplier_onboard_power_summary_routed.pb -rpx booth_multiplier_onboard_power_routed.rpx
 | Design           : booth_multiplier_onboard
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.133        |
+| Total On-Chip Power (W)  | 0.130        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.036        |
+| Dynamic (W)              | 0.033        |
 | Device Static (W)        | 0.097        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 84.4         |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.011 |     1315 |       --- |             --- |
-|   LUT as Logic |     0.010 |      857 |     63400 |            1.35 |
+| Clocks         |     0.002 |        3 |       --- |             --- |
+| Slice Logic    |     0.010 |     1308 |       --- |             --- |
+|   LUT as Logic |     0.009 |      841 |     63400 |            1.33 |
 |   CARRY4       |     0.001 |      197 |     15850 |            1.24 |
-|   Register     |    <0.001 |      109 |    126800 |            0.09 |
+|   Register     |    <0.001 |      110 |    126800 |            0.09 |
 |   Others       |     0.000 |       15 |       --- |             --- |
-| Signals        |     0.009 |     1112 |       --- |             --- |
-| I/O            |     0.015 |       36 |       210 |           17.14 |
+| Signals        |     0.008 |     1104 |       --- |             --- |
+| I/O            |     0.012 |       36 |       210 |           17.14 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.133 |          |           |                 |
+| Total          |     0.130 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,9 +71,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.037 |       0.022 |      0.015 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.008 |       0.004 |      0.004 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.036 |       0.021 |      0.015 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.019 |       0.000 |      0.018 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.007 |       0.003 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -140,12 +140,12 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| booth_multiplier_onboard |     0.036 |
+| booth_multiplier_onboard |     0.033 |
 |   booth_mult             |     0.002 |
 |     shift_reg            |     0.001 |
-|   ssd                    |     0.019 |
-|     cathodes_input_mgr   |     0.016 |
-|     counter_mod8         |     0.003 |
+|   ssd                    |     0.018 |
+|     cathodes_input_mgr   |     0.015 |
+|     counter_mod8         |     0.002 |
 +--------------------------+-----------+
 
 

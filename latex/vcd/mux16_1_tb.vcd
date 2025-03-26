@@ -1,0 +1,70 @@
+$date
+   Tue Mar  4 01:31:57 2025
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module mux16_1_tb $end
+$scope module uut $end
+$var wire 16 ! a $end
+$var wire 4 " s $end
+$var wire 1 # y $end
+$var wire 4 $ u $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+b0 $
+$end
+#100000
+b1010110111100011 !
+1#
+b1110 $
+#110000
+0#
+b110 $
+#120000
+1#
+b1011 $
+#130000
+0#
+b101 $
+#140000
+1#
+b1110 $
+#150000
+b110 $
+#160000
+0#
+b1011 $
+#170000
+1#
+b101 $
+#180000
+b1000 "
+1#
+b1110 $
+#190000
+b110 $
+#200000
+b1011 $
+#210000
+0#
+b101 $
+#220000
+0#
+b1110 $
+#230000
+b110 $
+#240000
+1#
+b1011 $
+#250000
+b101 $

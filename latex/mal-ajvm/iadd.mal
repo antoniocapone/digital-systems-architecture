@@ -1,0 +1,7 @@
+iadd = 0x65:
+        MAR = SP = SP - 1; rd
+        H = TOS
+        H = MDR + H
+        MAR = SP = SP - 1; rd
+        empty
+        MDR = TOS = MDR + H; wr; goto main

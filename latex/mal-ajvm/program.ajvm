@@ -1,0 +1,11 @@
+  .main
+  .var
+  a
+  .endvar
+  BIPUSH 0xA
+  BIPUSH 0xE
+  BIPUSH 0x4
+  IADD
+  ISTORE a
+  HALT
+  .endmethod

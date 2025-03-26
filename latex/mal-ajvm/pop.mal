@@ -1,0 +1,4 @@
+pop = 0x59:
+        MAR = SP = SP - 1; rd
+        empty
+        TOS = MDR; goto main

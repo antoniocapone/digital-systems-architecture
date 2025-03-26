@@ -1,0 +1,54 @@
+$date
+   Sun Mar 23 21:20:16 2025
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module system_tb $end
+$var wire 4 ! x0 $end
+$var wire 4 " x1 $end
+$var wire 4 # x2 $end
+$var wire 4 $ x3 $end
+$var wire 4 % enable $end
+$var wire 2 & y0 $end
+$var wire 2 ' y1 $end
+$var wire 2 ( y2 $end
+$var wire 2 ) y3 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 !
+b101 "
+b1111 #
+b1000 $
+b0 %
+b0 &
+b0 '
+b0 (
+b0 )
+$end
+#100000
+b1111 %
+b0 &
+b10 (
+#120000
+b111 %
+b0 (
+b0 )
+#140000
+b0 '
+b11 )
+#160000
+b1001 %
+b10 (
+b0 )
+#180000
+b1 %
+b10 &
+b0 (
+#200000
+b0 &

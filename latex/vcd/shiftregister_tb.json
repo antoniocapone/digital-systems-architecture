@@ -1,0 +1,64 @@
+{
+    "signal": [
+        {
+            "name": "Sequence_Detector_tb.reset",
+            "wave": "1...................0..........",
+            "data": []
+        },
+        {
+            "name": "Sequence_Detector_tb.clock",
+            "wave": "lHlhlhlhlhlhlhlhlhlhlhlhlhlhlhl",
+            "data": []
+        },
+        {
+            "name": "Sequence_Detector_tb.load",
+            "wave": "0...................1.0........",
+            "data": []
+        },
+        {
+            "name": "Sequence_Detector_tb.input",
+            "wave": "=...................=..........",
+            "data": [
+                "0",
+                "6F5D"
+            ]
+        },
+        {
+            "name": "Sequence_Detector_tb.Y",
+            "wave": "0.........................1....",
+            "data": []
+        },
+        {
+            "name": "Sequence_Detector_tb.shift_left",
+            "wave": "0.......................1...0..",
+            "data": []
+        },
+        {
+            "name": "Sequence_Detector_tb.output_structural",
+            "wave": "x=...................=.=.=.=.=.",
+            "data": [
+                "0",
+                "6F5D",
+                "B7AE",
+                "6F5D",
+                "BD75",
+                "6F5D"
+            ]
+        },
+        {
+            "name": "Sequence_Detector_tb.output_behavioral",
+            "wave": "=....................=.=.=.=.=.",
+            "data": [
+                "0",
+                "6F5D",
+                "B7AE",
+                "6F5D",
+                "BD75",
+                "6F5D"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

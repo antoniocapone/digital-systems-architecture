@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[bookmarks]{hyperref}
+\usepackage{color}
+\usepackage[newfloat]{minted}
+\usepackage{caption}
+\usepackage{amsmath}
+
+\newgeometry{
+    left=   1 in,
+    bottom= 1.2 in,
+    right=  1 in,
+    top=    1 in
+}
+
+% Colors
+\definecolor{titlecolor}{RGB}{51, 102, 153}
+
+% Title style
+\setcounter{secnumdepth}{0}
+\titleformat{\section}
+{\color{titlecolor}\normalfont\LARGE\bfseries}{}{0pt}{}
+
+% Minted style
+\setminted{fontsize=\footnotesize, breaklines=true, tabsize=4}
+
+% Code listing caption
+\newenvironment{code}{\captionsetup{type=listing, aboveskip=0pt, belowskip=10pt}}{}
+\SetupFloatingEnvironment{listing}{name=Codice sorgente}
+
+\begin{document}
+
+\include{titlepage}
+\tableofcontents
+\newpage
+
+\include{exercise_1}
+\include{exercise_2}
+\include{exercise_3}
+\include{exercise_4}
+\include{exercise_5}
+\include{exercise_6}
+\include{exercise_7}
+\include{exercise_8}
+\include{exercise_9}
+\include{exercise_10}
+\include{exercise_11}
+\include{exercise_12}
+
+\begin{appendix}
+    \include{appendix}
+\end{appendix}
+\end{document}

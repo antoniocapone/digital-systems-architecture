@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Sat Feb 15 21:37:47 2025
+| Date         : Sun Mar 23 16:27:12 2025
 | Host         : TABLET-OCD01L8V running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file booth_multiplier_onboard_control_sets_placed.rpt
 | Design       : booth_multiplier_onboard
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |     7 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    19 |
+| Unused register locations in slices containing registers |    18 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -58,12 +58,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              11 |            3 |
+| No           | No                    | No                     |              10 |            5 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              36 |           15 |
-| Yes          | No                    | No                     |               6 |            3 |
+| No           | Yes                   | No                     |              39 |           14 |
+| Yes          | No                    | No                     |               6 |            2 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              56 |           27 |
+| Yes          | Yes                   | No                     |              55 |           22 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -74,12 +74,12 @@ Table of Contents
 |     Clock Signal     |                Enable Signal               |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------------+--------------------------------------------+-------------------------------------+------------------+----------------+--------------+
 |  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/done_sig              | start_button/button_debounced_reg_0 |                1 |              1 |         1.00 |
-|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/counter_reset_i_1_n_0 |                                     |                3 |              6 |         2.00 |
-|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/load                  | BTNU_IBUF                           |                6 |              8 |         1.33 |
-|  CLK100MHZ_IBUF_BUFG |                                            |                                     |                3 |             11 |         3.67 |
-|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/E[0]                  | BTNU_IBUF                           |               11 |             15 |         1.36 |
-|  CLK100MHZ_IBUF_BUFG | start_button/count[31]_i_2_n_0             | start_button/count[31]_i_1_n_0      |                9 |             32 |         3.56 |
-|  CLK100MHZ_IBUF_BUFG |                                            | BTNU_IBUF                           |               15 |             36 |         2.40 |
+|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/counter_reset_i_1_n_0 |                                     |                2 |              6 |         3.00 |
+|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/load                  | BTNU_IBUF                           |                5 |              8 |         1.60 |
+|  CLK100MHZ_IBUF_BUFG |                                            |                                     |                5 |             10 |         2.00 |
+|  CLK100MHZ_IBUF_BUFG | booth_mult/ctrl_unit/E[0]                  | BTNU_IBUF                           |                8 |             15 |         1.88 |
+|  CLK100MHZ_IBUF_BUFG | start_button/count[31]_i_2_n_0             | start_button/count[31]_i_1_n_0      |                8 |             31 |         3.88 |
+|  CLK100MHZ_IBUF_BUFG |                                            | BTNU_IBUF                           |               14 |             39 |         2.79 |
 +----------------------+--------------------------------------------+-------------------------------------+------------------+----------------+--------------+
 
 

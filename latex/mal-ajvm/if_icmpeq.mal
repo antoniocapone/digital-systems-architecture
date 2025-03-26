@@ -1,0 +1,22 @@
+if_icmpeq = 0xA1:
+        MAR = SP = SP - 1; rd
+        MAR = SP = SP - 1
+        H = MDR; rd
+        OPC = TOS
+        TOS = MDR
+        Z = OPC - H; if (Z) goto T; else goto F
+
+T:
+        OPC = PC - 1; fetch; goto goto_cont
+
+goto_cont:
+        PC = PC + 1; fetch
+        H = MBR << 8
+        H = MBRU OR H
+        PC = OPC + H; fetch
+        goto main
+
+F:
+        PC = PC + 1
+        PC = PC + 1; fetch
+        goto main

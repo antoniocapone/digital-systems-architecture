@@ -87,7 +87,7 @@ architecture Behavioral of Rs232RefComp is
 -- num_fronti_per_TX = 50 * 10^6 / 115200 = 434
 -- num_fronti_per_RX = 434 / 16 = 27
 
-	constant baudDivide : std_logic_vector(7 downto 0) := "00001101"; 	--Baud Rate divider = 163 (set for a rate of 9600)
+	constant baudDivide : std_logic_vector(7 downto 0) := "00001101"; 	--Baud Rate divider = 13 (set for a rate of 115200)
 	signal clkDiv	:  std_logic_vector(8 downto 0)	:= "000000000";		--usato per rClk: conta il num di fronti di clk in cui 
 																	    --mantenere il valore basso e il valore alto del clock di ricezione
 	signal rClkDiv :  std_logic_vector(3 downto 0)	:= "0000";		    --usato per tClk: il MSB di questa stringa è usato come tClk

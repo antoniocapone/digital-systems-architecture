@@ -1,0 +1,43 @@
+{
+    "signal": [
+        {
+            "name": "interconnection16_4_tb.input",
+            "wave": "=.........=....",
+            "data": [
+                "0",
+                "ADE3"
+            ]
+        },
+        {
+            "name": "interconnection16_4_tb.control_input",
+            "wave": "=..............",
+            "data": [
+                "0"
+            ]
+        },
+        {
+            "name": "interconnection16_4_tb.output",
+            "wave": "=.........=====",
+            "data": [
+                "0",
+                "8",
+                "4",
+                "2",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "name": "interconnection16_4_tb.control_output",
+            "wave": "=...........=.=",
+            "data": [
+                "0",
+                "2",
+                "0"
+            ]
+        }
+    ],
+    "config": {
+        "hscale": 1
+    }
+}

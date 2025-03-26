@@ -1,0 +1,36 @@
+~/amic-0$ cmake --build build --target check
+
+Built target index
+analyze ~/amic-0/src/main/vhdl/common_defs.vhd
+analyze ~/amic-0/src/main/vhdl/control_store.vhd
+analyze ~/amic-0/src/main/vhdl/control_unit.vhd
+analyze ~/amic-0/src/main/vhdl/alu.vhd
+analyze ~/amic-0/src/main/vhdl/datapath.vhd
+analyze ~/amic-0/src/main/vhdl/processor.vhd
+analyze ~/amic-0/src/main/vhdl/dp_ar_ram.vhd
+analyze ~/amic-0/src/test/vhdl/processor_tb.vhd
+elaborate processor_tb
+Built target src.test.vhdl.processor_tb
+analyze ~/amic-0/src/test/vhdl/alu_tb.vhd
+elaborate alu_tb
+Built target src.test.vhdl.alu_tb
+analyze ~/amic-0/src/test/vhdl/control_unit_tb.vhd
+elaborate control_unit_tb
+Built target src.test.vhdl.control_unit_tb
+analyze ~/amic-0/src/test/vhdl/datapath_tb.vhd
+elaborate datapath_tb
+Built target src.test.vhdl.datapath_tb
+Test project ~/amic-0/build
+    Start 1: src.test.vhdl.alu_tb
+1/4 Test #1: src.test.vhdl.alu_tb .............   Passed    0.02 sec
+    Start 2: src.test.vhdl.control_unit_tb
+2/4 Test #2: src.test.vhdl.control_unit_tb ....   Passed    0.01 sec
+    Start 3: src.test.vhdl.datapath_tb
+3/4 Test #3: src.test.vhdl.datapath_tb ........   Passed    0.02 sec
+    Start 4: src.test.vhdl.processor_tb
+4/4 Test #4: src.test.vhdl.processor_tb .......   Passed    0.03 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.09 sec
+Built target check

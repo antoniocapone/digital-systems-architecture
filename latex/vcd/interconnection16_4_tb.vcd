@@ -1,0 +1,59 @@
+$date
+   Tue Mar  4 04:51:07 2025
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module interconnection16_4_tb $end
+$var wire 16 ! input $end
+$var wire 4 " control_input $end
+$var wire 4 # output $end
+$var wire 2 $ control_output $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+0%
+b0 &
+b0 '
+b0 (
+0)
+b0 *
+0+
+b0 ,
+0-
+b0 .
+0/
+b0 0
+$end
+#100000
+b1010110111100011 !
+b1000 #
+1%
+b1110 &
+b1010 '
+1)
+b1101 *
+b1110 ,
+1-
+b11 .
+#110000
+b100 #
+#120000
+b10 #
+b10 $
+#130000
+b1 #
+#140000
+b0 #
+b0 $
+0%
+b110 &
+0)

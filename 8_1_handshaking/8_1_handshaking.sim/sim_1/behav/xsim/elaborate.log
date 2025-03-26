@@ -21,6 +21,6 @@ Compiling architecture behavioral of entity xil_defaultlib.control_unit_B [contr
 Compiling architecture behavioral of entity xil_defaultlib.MEM_N_M [mem_n_m_default]
 Compiling architecture dataflow of entity xil_defaultlib.adder [adder_default]
 Compiling architecture behavioral of entity xil_defaultlib.register_M [register_m_default]
-Compiling architecture behavioral of entity xil_defaultlib.system_B [system_b_default]
+Compiling architecture structural of entity xil_defaultlib.system_B [system_b_default]
 Compiling architecture behavioral of entity xil_defaultlib.handshaking_tb
 Built simulation snapshot handshaking_tb_behav

@@ -1,0 +1,57 @@
+$date
+   Sat Mar 22 12:57:44 2025
+$end
+$version
+  2023.1
+$end
+$timescale
+  1ps
+$end
+$scope module rom_m_mem_tb $end
+$var wire 1 ! start $end
+$var wire 1 " reset $end
+$var wire 4 # output $end
+$var wire 8 $ test_input $end
+$var wire 4 % test_output $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+bx #
+b0 $
+b0 %
+$end
+#100000
+1!
+#120000
+0!
+b10101000 $
+#125000
+b0 #
+#150000
+b110 %
+#180000
+b10111 $
+b1 %
+#210000
+b11100000 $
+b1000 %
+#215000
+b1000 #
+#270000
+b11 $
+b1 %
+#275000
+b1 #
+#300000
+b11111111 $
+b1111 %
+#305000
+b1111 #
+#330000
+b1000110 $
+b0 %
+#335000
+b0 #

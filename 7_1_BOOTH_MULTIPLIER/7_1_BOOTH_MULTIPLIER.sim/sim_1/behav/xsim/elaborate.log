@@ -5,21 +5,4 @@ Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.math_real
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.register_8 [register_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.shiftregister [shiftregister_default]
-Compiling architecture dataflow of entity xil_defaultlib.full_adder [full_adder_default]
-Compiling architecture structural of entity xil_defaultlib.ripple_carry_adder_8 [ripple_carry_adder_8_default]
-Compiling architecture structural of entity xil_defaultlib.adder_subtractor [adder_subtractor_default]
-Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(max_count=8)\]
-Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
-Compiling architecture structural of entity xil_defaultlib.booth_multiplier [booth_multiplier_default]
-Compiling architecture behavioral of entity xil_defaultlib.booth_multiplier_tb
-Built simulation snapshot booth_multiplier_tb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

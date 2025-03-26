@@ -39,7 +39,7 @@ architecture structural of booth_multiplier_onboard is
 	
 	component button_debouncer
 	generic (
-		clock_period: integer := 10000;
+		clock_period: integer := 10;
 		noise_time: integer := 10000000
 	);
 	port (
